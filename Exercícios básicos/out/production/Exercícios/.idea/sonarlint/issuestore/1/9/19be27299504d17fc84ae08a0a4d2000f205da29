@@ -1,0 +1,8 @@
+
+7
+java:S1220""Move this file to a named package.8Şª“ìÑ1
+L	java:S106"+Replace this use of System.out by a logger.(À›´õüÿÿÿÿ8åª“ìÑ1
+G	java:S106"+Replace this use of System.out by a logger.(Å˜ô¥8åª“ìÑ1
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¤Í³¾ùÿÿÿÿ8Úâ“ìÑ1
+L	java:S106"+Replace this use of System.out by a logger.(¤Í³¾ùÿÿÿÿ8åª“ìÑ1
