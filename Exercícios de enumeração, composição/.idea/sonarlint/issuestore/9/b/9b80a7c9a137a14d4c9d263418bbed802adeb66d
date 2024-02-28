@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²â 8Á•’ÛŞ1
+…
+java:S4165"cRemove this useless assignment; "email" already holds the assigned value along all execution paths.(ÍùÅ‡øÿÿÿÿ8Ä•’ÛŞ1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ÍùÅ‡øÿÿÿÿ8È•’ÛŞ1

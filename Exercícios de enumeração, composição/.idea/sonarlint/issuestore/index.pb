@@ -15,3 +15,13 @@ M
 Exercicio2/Entidade/Post.java,9\8\98a610db09dbc0e27256dd2e1788cbfe64d4e038
 S
 #Exercicio2/Utilitario/Programa.java,1\5\1563bfddbfa1b0d06fc155fa35a9819b88cfbf83
+K
+Exercicio3/OrdemStatus.java,e\f\ef23ecf340f9c6f3b41665ab466db6def864f57b
+G
+Exercicio3/Produto.java,a\c\ac662916e81337eb93737d26854d3f202f43a356
+G
+Exercicio3/Cliente.java,9\b\9b80a7c9a137a14d4c9d263418bbed802adeb66d
+E
+Exercicio3/Ordem.java,0\0\00f82a1e69003dbd4ae4a8b1a1eba8d8261760ec
+I
+Exercicio3/OrdemItem.java,0\b\0bb3326a0acdee1e76f9b3726423e9bdb10e0466
