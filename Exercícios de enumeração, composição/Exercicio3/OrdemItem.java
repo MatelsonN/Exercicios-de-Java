@@ -3,11 +3,13 @@ package Exercicio3;
 public class OrdemItem {
 
     private Integer quantidade;
-    private Produto preco;
+    private Double preco;
+    private Produto precoItem;
 
-    public OrdemItem(Integer quantidade, Produto preco) {
+    public OrdemItem(Integer quantidade, Double preco, Produto precoItem) {
         this.quantidade = quantidade;
         this.preco = preco;
+        this.precoItem = precoItem;
     }
 
     public Integer getQuantidade() {
@@ -18,15 +20,15 @@ public class OrdemItem {
         this.quantidade = quantidade;
     }
 
-    public Produto getPreco() {
+    public Double getPreco() {
         return preco;
     }
 
-    public void setPreco(Produto preco) {
-        this.preco = preco;
+    public Produto getPrecoItem() {
+        return precoItem;
     }
 
-    public Double subTotal(Integer quantidade, Produto preco) {
-        return preco = quantidade * preco;
+    public Double subTotal(Integer quantidade, Produto precoItem) {
+        return preco = quantidade * precoItem.getPreco();
     }
 }
