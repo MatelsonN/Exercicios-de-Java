@@ -15,3 +15,15 @@ M
 Exercicio2/Entidade/Post.java,9\8\98a610db09dbc0e27256dd2e1788cbfe64d4e038
 S
 #Exercicio2/Utilitario/Programa.java,1\5\1563bfddbfa1b0d06fc155fa35a9819b88cfbf83
+P
+ Exercicio3/Entidade/Cliente.java,8\b\8bfe0015788fdecd8a93d036ca78229232de62fb
+Y
+)Exercicio3/Entidade/Enum/OrdemStatus.java,6\c\6c26a0fe7ed886583e8354b65d8cee5076927741
+R
+"Exercicio3/Entidade/OrdemItem.java,4\1\41e04e6bd1f1aa9df004a0caa7cd7c50bab0dd83
+P
+ Exercicio3/Entidade/Produto.java,4\4\440cd58148f11d41ada16fa31012de4484d5fb63
+S
+#Exercicio3/Utilitario/Programa.java,3\6\3642d8f3e985df56813cc00edee6bb17215d3192
+N
+Exercicio3/Entidade/Ordem.java,f\d\fdddf406efd63b7643a314419d26adab5b4aabf2

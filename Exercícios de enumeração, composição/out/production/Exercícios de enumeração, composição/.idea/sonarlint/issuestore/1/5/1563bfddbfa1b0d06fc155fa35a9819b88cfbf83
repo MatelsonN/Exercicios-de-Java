@@ -1,20 +1,4 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÈ¢Ù8‹‘ŠÏŞ1
-\
-java:S1854"?Remove this useless assignment to local variable "comentario2".(àÃ¿ä8‘ŠÏŞ1
-\
-java:S1854"?Remove this useless assignment to local variable "comentario1".(àÎ…Ø8‘ŠÏŞ1
-T
-java:S1854"7Remove this useless assignment to local variable "sdf".(ë‚íœ8‘ŠÏŞ1
-X
-java:S1854";Remove this useless assignment to local variable "leitura".(Õ‡Œî8‘ŠÏŞ1
-I
-java:S1481",Remove this unused "leitura" local variable.(Õ‡Œî8‘‘ŠÏŞ1
-E
-java:S1481"(Remove this unused "sdf" local variable.(ë‚íœ8’‘ŠÏŞ1
-M
-java:S1481"0Remove this unused "comentario1" local variable.(àÎ…Ø8’‘ŠÏŞ1
-M
-java:S1481"0Remove this unused "comentario2" local variable.(àÃ¿ä8’‘ŠÏŞ1
-H
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8“‘ŠÏŞ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÈ¢Ù8ÿçîÏŞ1
+L	java:S106%"+Replace this use of System.out by a logger.(íç’Ğùÿÿÿÿ8èîÏŞ1
+L	java:S106&"+Replace this use of System.out by a logger.(Ä¶Şãùÿÿÿÿ8‘“ñÏŞ1
