@@ -17,10 +17,9 @@ public class Programa {
 
     public static void main(String[] args) throws ParseException {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-
         Locale.setDefault(Locale.US);
         Scanner leitura = new Scanner(System.in);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.println("Insira os dados do cliente:");
         System.out.print("Nome: ");
@@ -30,36 +29,37 @@ public class Programa {
         System.out.print("Data de nascimento (DD/MM/YYYY): ");
         Date dataNascimento = sdf.parse(leitura.next());
 
+        Cliente clientes = new Cliente(nome, email, dataNascimento);
+
         System.out.println("Insira os dados do pedido:");
         System.out.print("Status: ");
-        String status = leitura.next();
+        OrdemStatus status = OrdemStatus.valueOf(leitura.next());
 
-        Ordem pedidoCliente = new Ordem(new Date(),
-                OrdemStatus.valueOf(status),
-                new Cliente(nome, email, dataNascimento));
+        Ordem pedidoCliente = new Ordem(new Date(),status, clientes);
 
         System.out.print("Quantos itens para este pedido? ");
         Integer quanItens = leitura.nextInt();
         for (int i = 1; i <= quanItens; i++) {
             System.out.println("Insira os dados do item " + i + "#:");
             System.out.print("Nome do produto: ");
-            String nomeProduto = leitura.next();
+            leitura.nextLine();
+            String nomeProduto = leitura.nextLine();
             System.out.print("Preço do produto: ");
             Double precoProduto = leitura.nextDouble();
+
+            Produto produtos = new Produto(nomeProduto, precoProduto);
+
             System.out.print("Quantidade do produto: ");
             Integer quantidade = leitura.nextInt();
-            OrdemItem ordemPedido = new OrdemItem(quantidade, precoProduto, new Produto(nomeProduto, precoProduto));
+
+            OrdemItem ordemPedido = new OrdemItem(quantidade, precoProduto, produtos);
+
             pedidoCliente.adicionarItem(ordemPedido);
         }
 
-        System.out.println("RESUMO DO PEDIDO:");
+        System.out.println();
+        System.out.println("Itens de pedido:" );
         System.out.println(pedidoCliente);
-
-
-
-
-
-
 
         leitura.close();
 

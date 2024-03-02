@@ -2,17 +2,18 @@ package Exercicio3.Entidade;
 
 import Exercicio3.Entidade.Enum.OrdemStatus;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class Ordem {
 
+    public static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     private Date momento;
     private OrdemStatus status;
 
     private Cliente clientes;
-
     private List<OrdemItem> pedidos = new ArrayList<>();
 
     public Ordem(Date momento, OrdemStatus status, Cliente clientes) {
@@ -59,8 +60,8 @@ public class Ordem {
 
     public double total() {
         int soma = 0;
-        for (OrdemItem c : pedidos) {
-            soma += c.getPreco();
+        for (OrdemItem item : pedidos) {
+            soma += item.subTotal();
         }
         return soma;
     }
@@ -69,11 +70,17 @@ public class Ordem {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("RESUMO DO PEDIDO:");
-        sb.append("\nMomento do pedido: " + momento);
-        sb.append("\nStatus do pedido: " + status);
-        sb.append("\nCliente: " + clientes.getNome() +
-                "(" + clientes.getDataDeNascimento() + ") - " +
-                clientes.getEmail());
+        sb.append(sdf.format(momento) + "\n");
+        sb.append("Status do pedido: ");
+        sb.append(status + "\n");
+        sb.append("Cliente: ");
+        sb.append(clientes + "\n");
+        sb.append("Itens de pedido:\n");
+        for (OrdemItem item : pedidos) {
+            sb.append(item + "\n");
+        }
+        sb.append("Preço total: R$ ");
+        sb.append(String.format("%.2f", total()));
         return sb.toString();
     }
 }

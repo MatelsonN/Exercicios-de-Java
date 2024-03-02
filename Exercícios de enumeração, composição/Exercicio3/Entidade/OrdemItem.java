@@ -4,12 +4,15 @@ public class OrdemItem {
 
     private Integer quantidade;
     private Double preco;
-    private Produto precoItem;
+    private Produto produto;
 
-    public OrdemItem(Integer quantidade, Double preco, Produto precoItem) {
+    public OrdemItem(){
+    }
+
+    public OrdemItem(Integer quantidade, Double preco, Produto produto) {
         this.quantidade = quantidade;
         this.preco = preco;
-        this.precoItem = precoItem;
+        this.produto = produto;
     }
 
     public Integer getQuantidade() {
@@ -24,11 +27,30 @@ public class OrdemItem {
         return preco;
     }
 
-    public Produto getPrecoItem() {
-        return precoItem;
+    public void setPreco(Double preco) {
+        this.preco = preco;
     }
 
-    public Double subTotal(Integer quantidade, Produto precoItem) {
-        return preco = quantidade * precoItem.getPreco();
+    public Produto getProduto() {
+        return produto;
+    }
+
+    public void setProduto(Produto produto) {
+        this.produto = produto;
+    }
+
+    public Double subTotal() {
+        return quantidade * preco;
+    }
+
+    @Override
+    public String toString() {
+        return produto.getNome()
+                + ", R$"
+                + String.format("%.2f", preco)
+                + ", Quantidade: "
+                + quantidade +
+                ", Subtotal: $"
+                + String.format("%.2f", subTotal());
     }
 }
