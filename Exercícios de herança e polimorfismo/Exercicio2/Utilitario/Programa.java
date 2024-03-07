@@ -47,7 +47,7 @@ public class Programa {
         System.out.println();
         System.out.println("PREÇOS:");
         for (Produto prod: produtos) {
-            System.out.println(prod);
+            System.out.println(prod.tagPreco());
         }
 
         leitura.close();

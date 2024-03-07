@@ -32,8 +32,4 @@ public class ProdutoUsado extends Produto{
                 + " (Data de fabricação: "
                 + sdf.format(dataDeFabricacao) + ")";
     }
-
-    public String toString(){
-        return tagPreco();
-    }
 }

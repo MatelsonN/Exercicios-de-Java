@@ -20,6 +20,10 @@ public class ProdutoImportado extends Produto{
         this.taxaAduaneira = taxaAduaneira;
     }
 
+    public Double precoTotal(){
+        return getPreco() + taxaAduaneira;
+    }
+
     @Override
     public String tagPreco() {
         return getNome()
@@ -27,13 +31,5 @@ public class ProdutoImportado extends Produto{
                 + String.format("%.2f", precoTotal())
                 + " (taxa aduaneira: R$ "
                 + String.format("%.2f", taxaAduaneira) + ")";
-    }
-
-    public Double precoTotal(){
-        return getPreco() + taxaAduaneira;
-    }
-
-    public String toString(){
-        return tagPreco();
     }
 }

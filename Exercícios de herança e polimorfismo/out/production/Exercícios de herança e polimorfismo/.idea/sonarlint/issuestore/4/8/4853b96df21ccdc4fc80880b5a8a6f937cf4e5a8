@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ฯþะก8–๛รแ1
+
+java:S4165"cRemove this useless assignment; "preco" already holds the assigned value along all execution paths.(ณๅจX8๛รแ1
+K
+java:S1656"/Remove or correct this useless self-assignment.(ณๅจX8๛รแ1
