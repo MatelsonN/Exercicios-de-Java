@@ -30,11 +30,11 @@ public class Produto {
     }
 
     public String tagPreco(){
-        return nome + " R$ " + preco;
+        return nome + " R$ " + String.format("%.2f", preco);
     }
 
     @Override
     public String toString() {
-        return nome + " R$ " + String.format("%.2f", preco);
+        return tagPreco();
     }
 }
