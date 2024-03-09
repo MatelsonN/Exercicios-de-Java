@@ -13,3 +13,11 @@ S
 #Exercicio2/Utilitario/Programa.java,1\5\1563bfddbfa1b0d06fc155fa35a9819b88cfbf83
 P
  Exercicio2/Entidade/Produto.java,4\8\4853b96df21ccdc4fc80880b5a8a6f937cf4e5a8
+U
+%Exercicio3/Entidade/PessoaFisica.java,0\a\0a798b91909f099c6a672e90697ebed120d858ba
+S
+#Exercicio3/Utilitario/Programa.java,3\6\3642d8f3e985df56813cc00edee6bb17215d3192
+P
+ Exercicio3/Entidade/Imposto.java,0\6\0680f2770329f64691271ab2677aa8aa9cf2e4c2
+W
+'Exercicio3/Entidade/PessoaJuridica.java,3\f\3f356ae6c91c0883ccbcc1c2c44cdf8616628c33

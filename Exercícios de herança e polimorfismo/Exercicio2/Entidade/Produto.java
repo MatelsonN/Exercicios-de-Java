@@ -8,7 +8,7 @@ public class Produto {
     public Produto(){
     }
 
-    public Produto(String nome, Double preco){
+    public Produto(String nome, Double preco) {
         this.nome = nome;
         this.preco = preco;
     }
@@ -17,19 +17,19 @@ public class Produto {
         return nome;
     }
 
-    public void setNome(String nome){
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public Double getPreco(){
+    public Double getPreco() {
         return preco;
     }
 
-    public void setPreco(){
+    public void setPreco() {
         this.preco = preco;
     }
 
-    public String tagPreco(){
+    public String tagPreco() {
         return nome + " R$ " + String.format("%.2f", preco);
     }
 }

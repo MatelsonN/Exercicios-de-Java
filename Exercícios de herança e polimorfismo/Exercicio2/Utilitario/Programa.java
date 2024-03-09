@@ -20,7 +20,7 @@ public class Programa {
 
         System.out.print("Entre com o número de produtos: ");
         int numeroProdutos = leitura.nextInt();
-        for (int i = 1; i <= numeroProdutos; i++){
+        for (int i = 1; i <= numeroProdutos; i++) {
             System.out.println("Produto #" + i + " data:");
             System.out.print("comum, usado ou importado (c/u/i)? ");
             char character = leitura.next().charAt(0);
