@@ -1,4 +1,11 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É±¯¸øÿÿÿÿ8Şà½‡å1
-]
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ôíÃüÿÿÿÿ
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É±¯¸øÿÿÿÿ8ÒòË“å1
+L	java:S106"+Replace this use of System.out by a logger.(ºİæßıÿÿÿÿ8åòË“å1
+L	java:S106"+Replace this use of System.out by a logger.(˜ÏØÈşÿÿÿÿ8åòË“å1
+L	java:S106"+Replace this use of System.out by a logger.(ïçÚ«üÿÿÿÿ8åòË“å1
+G	java:S106"+Replace this use of System.out by a logger.(…äõ8æòË“å1
+G	java:S106"+Replace this use of System.out by a logger.(ÿç¥‡8æòË“å1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8çòË“å1
+L	java:S106"+Replace this use of System.out by a logger.(ú¸Ô¡øÿÿÿÿ8çòË“å1
+L	java:S106!"+Replace this use of System.out by a logger.(ËÒíüÿÿÿÿ8çòË“å1
+L	java:S106$"+Replace this use of System.out by a logger.(“»Ğ©ùÿÿÿÿ8èòË“å1

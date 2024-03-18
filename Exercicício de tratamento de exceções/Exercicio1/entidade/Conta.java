@@ -14,7 +14,7 @@ public class Conta {
     public Conta(){
     }
 
-    public Conta(Integer numero, String titular, Double balanco, Double limiteSaque){
+    public Conta(Integer numero, String titular, Double balanco, Double limiteSaque) {
         this.numero = numero;
         this.titular = titular;
         this.balanco = balanco;
@@ -46,15 +46,19 @@ public class Conta {
     }
 
     public Double deposito(Double valor) {
-        return balanco + valor;
+        return balanco += valor;
     }
 
     public Double saque(Double valor) {
-        if (valor > limiteSaque) {
-            throw new Domainexception("O valor excede o limite de saque");
-        } else if (valor > balanco) {
-            throw new Domainexception("balanço insuficiente");
+        validarSaque(valor);
+        return balanco -= valor;
+    }
+
+    public void validarSaque(Double valor) {
+        if (valor > getLimiteSaque()) {
+            throw new Domainexception("Erro de saque: O valor excede o limite de saque");
+        } else if (valor > getBalanco()) {
+            throw new Domainexception("Erro de saque: balanço insuficiente");
         }
-        return balanco = balanco - valor;
     }
 }

@@ -1,2 +1,6 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í±öÔøÿÿÿÿ8Œ¿ô‡å1
+K
+java:S1121:".Extract the assignment out of this expression.(¨‡ª8…€Ã“å1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í±öÔøÿÿÿÿ8æ­·“å1
+[
+java:S1128">Remove this unused import 'java.util.zip.DataFormatException'.(öÄë½8ñ­·“å1
