@@ -1,0 +1,24 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯”ÿ8Ñ®Ø÷á1
+]
+java:S1854";Remove this useless assignment to local variable "imposto".(èìÜ¼şÿÿÿÿ8Õ®Ø÷á1
+X
+java:S1854$";Remove this useless assignment to local variable "imposto".(ú÷úÎ8Õ®Ø÷á1
+]
+java:S1854'";Remove this useless assignment to local variable "imposto".(‹†­şÿÿÿÿ8Ö®Ø÷á1
+X
+java:S1854/";Remove this useless assignment to local variable "imposto".(¸ˆ¤ó8Ö®Ø÷á1
+X
+java:S18542";Remove this useless assignment to local variable "imposto".(ÏŞñ¸8Ö®Ø÷á1
+L	java:S106"+Replace this use of System.out by a logger.(ıàöúÿÿÿÿ8Ù®Ø÷á1
+G	java:S106"+Replace this use of System.out by a logger.(öŒêú8Ú®Ø÷á1
+L	java:S106"+Replace this use of System.out by a logger.(Ïï…éúÿÿÿÿ8Ú®Ø÷á1
+L	java:S106"+Replace this use of System.out by a logger.(‡äÌïüÿÿÿÿ8Ú®Ø÷á1
+L	java:S106"+Replace this use of System.out by a logger.(ŞîĞøÿÿÿÿÿ8Û®Ø÷á1
+N
+java:S1481",Remove this unused "imposto" local variable.(èìÜ¼şÿÿÿÿ8Û®Ø÷á1
+L	java:S106!"+Replace this use of System.out by a logger.(ÕÔëùüÿÿÿÿ8Ü®Ø÷á1
+G	java:S106,"+Replace this use of System.out by a logger.(§—û°8Ş®Ø÷á1
+L	java:S1068"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8à®Ø÷á1
+G	java:S1069"+Replace this use of System.out by a logger.(û¯ƒ8à®Ø÷á1
+L	java:S106;"+Replace this use of System.out by a logger.(¬Ã¤Óùÿÿÿÿ8á®Ø÷á1

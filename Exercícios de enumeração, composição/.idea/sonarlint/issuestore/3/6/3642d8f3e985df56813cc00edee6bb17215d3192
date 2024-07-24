@@ -1,18 +1,0 @@
-
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯”ÿ8ïŠ¯×ß1
-F	java:S106"+Replace this use of System.out by a logger.(˜©‡8‡‹¯×ß1
-L	java:S106"+Replace this use of System.out by a logger.(‡äÌïüÿÿÿÿ8ˆ‹¯×ß1
-G	java:S106"+Replace this use of System.out by a logger.(Ş…ºù8ˆ‹¯×ß1
-G	java:S106"+Replace this use of System.out by a logger.(±„Óï8‰‹¯×ß1
-L	java:S106""+Replace this use of System.out by a logger.(§Ş“˜ùÿÿÿÿ8‰‹¯×ß1
-G	java:S106#"+Replace this use of System.out by a logger.(ú·Éè8–¬•Çà1
-G	java:S106("+Replace this use of System.out by a logger.(ş…İç8Œ‹¯×ß1
-G	java:S106+"+Replace this use of System.out by a logger.(µîçÓ8Œ‹¯×ß1
-L	java:S106,"+Replace this use of System.out by a logger.(ÕÓå§ÿÿÿÿÿ8‹¯×ß1
-L	java:S106/"+Replace this use of System.out by a logger.(ßãûÿÿÿÿ8‹¯×ß1
-G	java:S1064"+Replace this use of System.out by a logger.(â’ƒí8‹¯×ß1
-L	java:S106<"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¾¬•Çà1
-G	java:S106="+Replace this use of System.out by a logger.(®´ßĞ8Á¬•Çà1
-L	java:S106>"+Replace this use of System.out by a logger.(¡ááâÿÿÿÿÿ8‹¯×ß1
-X
-java:S1128";Remove this unused import 'Exercicio1.Entidade.Enum.Cargo'.(Ì°—Ï8“‘º×ß1
