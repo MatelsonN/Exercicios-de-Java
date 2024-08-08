@@ -6,9 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Exercicício de tratamento de exceções" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercícios básicos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercícios de enumeração, composição" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Exercícios de herança e polimorfismo" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Exercícios de introdução a OO" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercicios" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntroductoryOoExercises" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

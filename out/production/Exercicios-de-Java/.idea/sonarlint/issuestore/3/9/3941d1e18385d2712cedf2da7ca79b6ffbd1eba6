@@ -1,8 +1,14 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤çì“şÿÿÿÿ8Üı˜ŸÖ1
-G	java:S106"+Replace this use of System.out by a logger.(Ïåˆş8‚ş˜ŸÖ1
-L	java:S106"+Replace this use of System.out by a logger.(Ì»¾¾şÿÿÿÿ8ƒş˜ŸÖ1
-s
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(üèÄ³şÿÿÿÿ8„®ŸÖ1
-L	java:S106"+Replace this use of System.out by a logger.(üèÄ³şÿÿÿÿ8Æ‡šŸÖ1
-G	java:S106 "+Replace this use of System.out by a logger.(Œå»Œ8¦à›ŸÖ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤çì“şÿÿÿÿ8åöÓ¤Õ1
+L	java:S106"+Replace this use of System.out by a logger.(ÛÀüÿÿÿÿ8ğöÓ¤Õ1
+L	java:S106"+Replace this use of System.out by a logger.(•²¼ÿÿÿÿÿ8ğöÓ¤Õ1
+G	java:S106"+Replace this use of System.out by a logger.(¿šÙ™8ñöÓ¤Õ1
+F	java:S106"+Replace this use of System.out by a logger.(¼Ì¨A8ñöÓ¤Õ1
+G	java:S106!"+Replace this use of System.out by a logger.(øŠº8òöÓ¤Õ1
+L	java:S106""+Replace this use of System.out by a logger.(¹ëä†ıÿÿÿÿ8òöÓ¤Õ1
+L	java:S106$"+Replace this use of System.out by a logger.(©ò…Ïıÿÿÿÿ8òöÓ¤Õ1
+L	java:S106&"+Replace this use of System.out by a logger.(ô¿‚«ùÿÿÿÿ8òöÓ¤Õ1
+L	java:S106'"+Replace this use of System.out by a logger.(¹ëä†ıÿÿÿÿ8òöÓ¤Õ1
+L	java:S106)"+Replace this use of System.out by a logger.(¾³‹Éøÿÿÿÿ8óöÓ¤Õ1
+L	java:S106+"+Replace this use of System.out by a logger.(ô¿‚«ùÿÿÿÿ8óöÓ¤Õ1
+L	java:S106,"+Replace this use of System.out by a logger.(¹ëä†ıÿÿÿÿ8óöÓ¤Õ1

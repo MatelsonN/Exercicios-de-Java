@@ -1,43 +1,13 @@
 
 H
-Exercicio1/Programa.java,d\f\df5d50537e6fa83fd053665d69268f8a03deda8d
+Exercicio3/Programa.java,7\1\717bddbf883a2e05f86ab45bacb7f7133c67c4b6
 H
-Exercicio2/Programa.java,8\f\8f54d5d88563ac2274e99fc36f6a6daeaf50948b
-O
-Exercicio3/Entidade/Pessoa.java,a\1\a133d311968b9217e6da505feb14acf5a8a837a9
-T
-$Exercicio3/Utilitarios/Programa.java,a\6\a69bd458604c19972cb2740d0a611756e2171a38
-R
-"Exercicio4/Entidade/NumeroPar.java,0\6\06140ee4644e3266246ca25b6bdab9deb3532a60
-T
-$Exercicio4/Utilitarios/Programa.java,e\d\edac0cd13d3056e3a106dfa0dd59ea40be8a815b
+Exercicio4/Programa.java,a\7\a7cbba69c85c34337ea7a1f6618e1c163e1b89fc
+P
+ Exercicio4/Utilitarios/Real.java,6\9\69b5fe27f9fd5b2fd9004b17148c6a1c33b9fe72
+U
+%Exercicio3/Utilitarios/Estudante.java,0\3\03ea5f4f632531a4f3f034a5b4d59a1f06b4a990
+Q
+!Exercicio5/Utilitarios/Conta.java,f\6\f6ed318e9f4e665b00c5a344899f3a2de098ca04
 H
 Exercicio5/Programa.java,3\9\3941d1e18385d2712cedf2da7ca79b6ffbd1eba6
-H
-Exercicio6/Programa.java,f\f\ff0e898f9adffdfa70ac7c89515cc4e05fc7118f
-H
-Exercicio7/Programa.java,d\d\dd352323dd011ccb4696bad294eb9feb648c17c9
-H
-Exercicio8/Programa.java,3\2\32ac2e9b3f9560f268d2d673786a2183c6fdbfaa
-O
-Exercicio9/Entidade/Pessoa.java,d\c\dce29d60eb4094047dc017fcd9e000874f440a36
-T
-$Exercicio9/Utilitarios/Programa.java,6\1\613612366dbec5c32784ea55afaa434bc7a2d084
-O
-Exercicio10/Entidade/Aluno.java,c\a\cac83b31b87514148313ee26d7a0f487b3f1c14b
-U
-%Exercicio10/Utilitarios/Programa.java,b\c\bcb6d3470e26857703c4efa66bee32318b853b8d
-P
- Exercicio11/Entidade/Pessoa.java,1\e\1e4e1b0af22a1b1bab990c39e7d07fafc17684a4
-U
-%Exercicio11/Utilitarios/Programa.java,7\c\7cac02ee91457187e0a827b4fd5aa6ad3719aaed
-O
-Exercicio12/Entidade/Hotel.java,4\2\429385be4f53b16034761c75c6a3fd31d2e0b11e
-U
-%Exercicio12/Utilitarios/Programa.java,c\8\c87a00b26d45aa04955d07f486f8bd569b43fc88
-U
-%Exercicio13/Entidade/Funcionario.java,4\a\4aeb6e24c9e378d4d3ad1b9083b57c159120672d
-U
-%Exercicio13/Utilitarios/Programa.java,d\1\d11a575fcd44c0d4040f7301b4f28f4877bbb252
-I
-Exercicio14/Programa.java,7\a\7a87d0d61742ffc36ecf769d9d33a59ac52bfa8b
