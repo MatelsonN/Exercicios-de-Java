@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Exercise8 {
         Locale.setDefault(Locale.US);
         Scanner reading = new Scanner(System.in);
 
-        System.out.println("Enter a number: ");
+        System.out.print("Enter a number: ");
         int number = reading.nextInt();
         reading.close();
 

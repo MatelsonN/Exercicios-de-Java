@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Exercise17 {
 
         while (value != null) {
 
-            System.out.println("Enter the value of X and Y. If you don't type anything, the program will end: ");
+            System.out.print("Enter the value of X and Y. If you don't type anything, the program will end: ");
             double valueX = reading.nextDouble();
             double valueY = reading.nextDouble();
 

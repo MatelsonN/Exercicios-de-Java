@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Scanner;
 import java.util.Locale;
@@ -9,11 +9,11 @@ public class Exercise21 {
 
         Locale.setDefault(Locale.US);
         Scanner reading = new Scanner(System.in);
-        System.out.println("Enter an integer: ");
+        System.out.print("Enter an integer: ");
         int integer = reading.nextInt();
 
         for (int i = 0; i < integer; i++) {
-            System.out.println("Enter three values to find the weighted average: ");
+            System.out.print("Enter three values to find the weighted average: ");
             double value1 = reading.nextDouble();
             double value2 = reading.nextDouble();
             double value3 = reading.nextDouble();

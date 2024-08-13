@@ -1,4 +1,4 @@
-package compositionEnumerationExercise.exercise1.entity;
+package Exercises.compositionEnumeration.exercise1.entity;
 
 public class Department {
 

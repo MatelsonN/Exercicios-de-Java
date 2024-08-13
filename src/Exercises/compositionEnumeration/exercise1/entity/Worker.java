@@ -1,6 +1,6 @@
-package compositionEnumerationExercise.exercise1.entity;
+package Exercises.compositionEnumeration.exercise1.entity;
 
-import compositionEnumerationExercise.exercise1.entity.enum.Position;
+import Exercises.compositionEnumeration.exercise1.entity.Enum.Position;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -14,7 +14,7 @@ public class Worker {
     private Department department;
     private List<Contracts> contracts = new ArrayList<>();
 
-    public Worker(String name, Cargo position, double baseSalary, Department department) {
+    public Worker(String name, Position position, double baseSalary, Department department) {
         this.name = name;
         this.position = position;
         this.baseSalary = baseSalary;

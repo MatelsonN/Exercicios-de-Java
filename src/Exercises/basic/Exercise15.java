@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Exercise15 {
         Locale.setDefault(Locale.US);
         Scanner reading = new Scanner(System.in);
 
-        System.out.println("Enter your salary amount: ");
+        System.out.print("Enter your salary amount: ");
         double value = reading.nextDouble();
 
         double tax;

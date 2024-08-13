@@ -1,0 +1,13 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğûãÇ8›œ¬Ö1
+`
+java:S35189">Make sure "mulheres" can't be zero before doing this division.(‡ŞõŒøÿÿÿÿ8äË•ÊÖ1
+L	java:S106"+Replace this use of System.out by a logger.(óø†íıÿÿÿÿ8Àœ¬Ö1
+L	java:S106"+Replace this use of System.out by a logger.(¢€Úúÿÿÿÿ8Àœ¬Ö1
+L	java:S106"+Replace this use of System.out by a logger.(˜¡õƒÿÿÿÿÿ8Àœ¬Ö1
+L	java:S106("+Replace this use of System.out by a logger.(Ì® ÿÿÿÿÿ8¿ø¢¬Ö1
+G	java:S106)"+Replace this use of System.out by a logger.(í½Ÿ½8Ãô§¬Ö1
+L	java:S1069"+Replace this use of System.out by a logger.(‡ŞõŒøÿÿÿÿ8›É²¬Ö1
+c
+java:S3457:"AFormat specifiers should be used instead of string concatenation.(äœßâøÿÿÿÿ8›É²¬Ö1
+L	java:S106:"+Replace this use of System.out by a logger.(äœßâøÿÿÿÿ8É²¬Ö1

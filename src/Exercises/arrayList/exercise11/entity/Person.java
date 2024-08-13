@@ -1,4 +1,4 @@
-package arrayListExercises.exercise11.entity;
+package Exercises.arrayList.exercise11.entity;
 
 public class Person {
 

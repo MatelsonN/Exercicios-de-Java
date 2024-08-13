@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Exercise14 {
         Locale.setDefault(Locale.US);
         Scanner reading = new Scanner(System.in);
 
-        System.out.println("Enter two values with one decimal place for (x e Y): ");
+        System.out.print("Enter two values with one decimal place for (x e Y): ");
         double valueX = reading.nextDouble();
         double valueY = reading.nextDouble();
 

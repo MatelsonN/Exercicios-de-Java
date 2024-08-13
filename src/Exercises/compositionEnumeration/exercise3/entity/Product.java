@@ -1,31 +1,31 @@
-package exerciciosDeEnumeracaoComposicao.Exercicio3.Entidade;
+package Exercises.compositionEnumeration.exercise3.entity;
 
-public class Produto {
+public class Product {
 
-    private String nome;
-    private Double preco;
+    private String name;
+    private Double price;
 
-    public Produto() {
+    public Product() {
     }
 
-    public Produto(String nome, Double preco) {
-        this.nome = nome;
-        this.preco = preco;
+    public Product(String name, Double price) {
+        this.name = name;
+        this.price = price;
     }
 
-    public String getNome() {
-       return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Double getPreco() {
-        return preco;
+    public Double getPrice() {
+        return price;
     }
 
-    public void setPreco(Double preco) {
-        this.preco = preco;
+    public void setPrice(Double price) {
+        this.price = price;
     }
 }

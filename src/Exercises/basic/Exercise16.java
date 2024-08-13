@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Exercise16 {
 
         while (password != 2002) {
 
-            System.out.println("Enter the 4-number password: ");
+            System.out.print("Enter the 4-number password: ");
             password = reading.nextInt();
 
             if (password != 2002) {

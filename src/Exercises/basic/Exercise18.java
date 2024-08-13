@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Exercise18 {
         Scanner reading = new Scanner(System.in);
 
         while (end != 4) {
-            System.out.println("Enter 1 for alcohol, 2 for gasoline, 3 for diesel, and 4 for exit: ");
+            System.out.print("Enter 1 for alcohol, 2 for gasoline, 3 for diesel, and 4 for exit: ");
             int value = reading.nextInt();
 
             switch (value) {

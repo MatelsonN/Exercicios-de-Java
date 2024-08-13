@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ public class Exercise2 {
     public static void main (String[] args) {
 
         Scanner reading = new Scanner(System.in);
-        System.out.println("Enter the first number: ");
+        System.out.print("Enter the first number: ");
         int number1 = reading.nextInt();
-        System.out.println("Enter the second number: ");
+        System.out.print("Enter the second number: ");
         int number2 = reading.nextInt();
         reading.close();
 

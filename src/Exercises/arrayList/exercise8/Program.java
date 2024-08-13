@@ -1,4 +1,4 @@
-package arrayListExercises.exercise8;
+package Exercises.arrayList.exercise8;
 
 import java.util.Locale;
 import java.util.Scanner;

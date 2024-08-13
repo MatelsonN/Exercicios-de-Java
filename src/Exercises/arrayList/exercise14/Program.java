@@ -1,4 +1,4 @@
-package arrayListExercises.exercise14;
+package Exercises.arrayList.exercise14;
 
 import java.util.Scanner;
 

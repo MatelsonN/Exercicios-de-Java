@@ -1,7 +1,8 @@
-package compositionEnumerationExercise.exercise2.utility;
+package Exercises.compositionEnumeration.exercise2.utility;
 
-import compositionEnumerationExercise.exercise2.entity.Comment;
-import compositionEnumerationExercise.exercise2.entity.Post;
+
+import Exercises.compositionEnumeration.exercise2.entity.Comment;
+import Exercises.compositionEnumeration.exercise2.entity.Post;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -32,7 +33,7 @@ public class Program {
                 5);
 
         post2.addComments(comen3);
-        post2.addCommentss(comen4);
+        post2.addComments(comen4);
 
         System.out.println(post);
         System.out.println(post2);

@@ -1,4 +1,4 @@
-package compositionEnumerationExercise.exercise2.entity;
+package Exercises.compositionEnumeration.exercise2.entity;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -56,7 +56,7 @@ public class Post {
         this.likes = likes;
     }
 
-    public List<Comments> getComments() {
+    public List<Comment> getComments() {
         return comments;
     }
 
@@ -77,7 +77,7 @@ public class Post {
         sb.append(content + "\n");
         sb.append("Comments:\n");
         for (Comment c : comments) {
-            sb.append(c.getTexto() + "\n");
+            sb.append(c.getText() + "\n");
         }
         return sb.toString();
     }

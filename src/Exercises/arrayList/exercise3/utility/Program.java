@@ -1,6 +1,6 @@
-package arrayListExercises.exercise3.utility;
+package Exercises.arrayList.exercise3.utility;
 
-import arrayListExercises.exercise3.entity.Person;
+import Exercises.arrayList.exercise3.entity.Person;
 
 import java.util.Locale;
 import java.util.Scanner;

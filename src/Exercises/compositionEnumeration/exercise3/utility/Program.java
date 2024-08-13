@@ -1,16 +1,18 @@
-package compositionEnumerationExercise.exercise3.utility;
+package Exercises.compositionEnumeration.exercise3.utility;
 
-import compositionEnumerationExercise.exercise3.entity.Client;
-import compositionEnumerationExercise.exercise3.entity.enum.OrderStatus;
-import compositionEnumerationExercise.exercise3.entity.Order;
-import compositionEnumerationExercise.exercise3.entity.OrderItem;
-import compositionEnumerationExercise.exercise3.entity.Product;
+import Exercises.compositionEnumeration.exercise3.entity.Client;
+import Exercises.compositionEnumeration.exercise3.entity.Order;
+import Exercises.compositionEnumeration.exercise3.entity.OrderItem;
+import Exercises.compositionEnumeration.exercise3.entity.Product;
+import Exercises.compositionEnumeration.exercise3.entity.enums.OrderStatus;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
+
+
 
 public class Program {
 
@@ -32,9 +34,9 @@ public class Program {
 
         System.out.println("Enter your order details:");
         System.out.print("Status: ");
-        OrdemStatus status = OrderStatus.valueOf(reading.next());
+        OrderStatus status = OrderStatus.valueOf(reading.next());
 
-        Order clientRequest = new Ordem(new Date(),status, clients);
+        Order clientRequest = new Order(new Date(), status, clients);
 
         System.out.print("How many items for this order? ");
         Integer quanItens = reading.nextInt();

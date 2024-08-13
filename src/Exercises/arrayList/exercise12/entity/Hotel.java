@@ -1,4 +1,4 @@
-package arrayListExercises.exercise12.entity;
+package Exercises.arrayList.exercise12.entity;
 
 public class Hotel {
 

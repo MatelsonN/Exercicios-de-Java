@@ -1,6 +1,7 @@
-package arrayListExercises.exercise9.utility;
+package Exercises.arrayList.exercise9.utility;
 
-import arrayListExercises.exercise9.entity.Person;
+
+import Exercises.arrayList.exercise9.entity.Person;
 
 import java.util.Scanner;
 

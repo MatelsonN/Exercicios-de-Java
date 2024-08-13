@@ -1,4 +1,4 @@
-package arrayListExercises.exercise13.entity;
+package Exercises.arrayList.exercise13.entity;
 
 public class Employee {
 

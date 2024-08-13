@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,17 +10,17 @@ public class Exercise6 {
         Locale.setDefault(Locale.US);
         Scanner reading = new Scanner(System.in);
 
-        System.out.println("Enter the code of the first part: ");
+        System.out.print("Enter the code of the first part: ");
         int firstPiece = reading.nextInt();
-        System.out.println("Enter the first part number: ");
+        System.out.print("Enter the first part number: ");
         int firstPartNumber = reading.nextInt();
-        System.out.println("Enter the unit value of the first piece chosen: ");
+        System.out.print("Enter the unit value of the first piece chosen: ");
         float firstUnitValue = reading.nextFloat();
-        System.out.println("Enter the second part code: ");
+        System.out.print("Enter the second part code: ");
         int secondPiece = reading.nextInt();
-        System.out.println("Enter the second part number: ");
+        System.out.print("Enter the second part number: ");
         int secondPieceNumber = reading.nextInt();
-        System.out.println("Enter the unit value of the second chosen piece: ");
+        System.out.print("Enter the unit value of the second chosen piece: ");
         float secondUnitValue = reading.nextFloat();
         reading.close();
 

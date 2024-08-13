@@ -1,4 +1,4 @@
-package compositionEnumerationExercise.exercise2.entity;
+package Exercises.compositionEnumeration.exercise2.entity;
 
 public class Comment {
 

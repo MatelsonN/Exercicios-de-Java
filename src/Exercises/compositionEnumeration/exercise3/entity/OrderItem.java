@@ -1,4 +1,4 @@
-package compositionEnumerationExercise.exercise3.entity;
+package Exercises.compositionEnumeration.exercise3.entity;
 
 public class OrderItem {
 
@@ -31,7 +31,7 @@ public class OrderItem {
         this.price = price;
     }
 
-    public Produto getProduct() {
+    public Product getProduct() {
         return product;
     }
 

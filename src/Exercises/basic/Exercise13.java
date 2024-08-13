@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class Exercise13 {
 
         Locale.setDefault(Locale.US);
         Scanner reading = new Scanner(System.in);
-        System.out.println("Choose any amount: ");
+        System.out.print("Choose any amount: ");
         double value = reading.nextDouble();
 
         String interval;

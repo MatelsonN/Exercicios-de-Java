@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Exercise20 {
         int x = reading.nextInt();
 
         for (int i = 0; i < x; i++) {
-            System.out.println("Enter the value to know if it will be in the range [10-20]: ");
+            System.out.print("Enter the value to know if it will be in the range [10-20]: ");
             int value = reading.nextInt();
 
             if (value >= 10 && value <= 20) {

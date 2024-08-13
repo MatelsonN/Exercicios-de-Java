@@ -1,4 +1,4 @@
-package arrayListExercises.exercise10.entity;
+package Exercises.arrayList.exercise10.entity;
 
 public class Student {
 

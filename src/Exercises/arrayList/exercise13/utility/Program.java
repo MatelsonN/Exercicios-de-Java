@@ -1,6 +1,6 @@
-package arrayListExercises.exercise13.utility;
+package Exercises.arrayList.exercise13.utility;
 
-import arrayListExercises.exercise13.entity.Employee;
+import Exercises.arrayList.exercise13.entity.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +35,7 @@ public class Program {
             System.out.print("Salary: ");
             double salary = reading.nextDouble();
 
-            employees.add(new Funcionario(id, name, salary));
+            employees.add(new Employee(id, name, salary));
         }
 
         System.out.print("\nEnter the employee ID: ");
@@ -62,7 +62,7 @@ public class Program {
     }
 
     private static boolean searchId(List<Employee> employees, int id) {
-        Funcionario employeeId = employees.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
+        Employee employeeId = employees.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
         return employeeId != null;
     }
 }

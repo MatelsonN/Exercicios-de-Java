@@ -1,9 +1,9 @@
-package compositionEnumerationExercise.exercise1.utility;
+package Exercises.compositionEnumeration.exercise1.utility;
 
-import compositionEnumerationExercise.exercise1.entity.Worker;
-import compositionEnumerationExercise.exercise1.entity.Contracts;
-import compositionEnumerationExercise.exercise1.entity.Department;
-import compositionEnumerationExercise.exercise1.entity.enum.Position;
+import Exercises.compositionEnumeration.exercise1.entity.Contracts;
+import Exercises.compositionEnumeration.exercise1.entity.Department;
+import Exercises.compositionEnumeration.exercise1.entity.Enum.Position;
+import Exercises.compositionEnumeration.exercise1.entity.Worker;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package compositionEnumerationExercise.exercise3.entity;
+package Exercises.compositionEnumeration.exercise3.entity;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

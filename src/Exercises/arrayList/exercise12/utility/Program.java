@@ -1,6 +1,6 @@
-package arrayListExercises.exercise12.utility;
+package Exercises.arrayList.exercise12.utility;
 
-import arrayListExercises.exercise12.entity.Hotel;
+import Exercises.arrayList.exercise12.entity.Hotel;
 
 import java.util.Scanner;
 

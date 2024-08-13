@@ -1,11 +1,12 @@
-package compositionEnumerationExercise.exercise3.entity;
+package Exercises.compositionEnumeration.exercise3.entity;
 
-import compositionEnumerationExercise.exercise3.entity.enum.OrderStatus;
+import Exercises.compositionEnumeration.exercise3.entity.enums.OrderStatus;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 
 public class Order {
 
@@ -30,7 +31,7 @@ public class Order {
         this.moment = moment;
     }
 
-    public OrdemStatus getStatus() {
+    public OrderStatus getStatus() {
         return status;
     }
 

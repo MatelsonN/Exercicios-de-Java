@@ -1,4 +1,4 @@
-package basicExercises;
+package Exercises.basic;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Exercise7 {
         Locale.setDefault(Locale.US);
         Scanner reading = new Scanner(System.in);
 
-        System.out.println("Enter the values of A, B and C in order: ");
+        System.out.print("Enter the values of A, B and C in order: ");
         float valueA = reading.nextFloat();
         float valueB = reading.nextFloat();
         float valueC = reading.nextFloat();

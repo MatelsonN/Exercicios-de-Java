@@ -1,6 +1,6 @@
-package arrayListExercises.exercise4.utility;
+package Exercises.arrayList.exercise4.utility;
 
-import arrayListExercises.exercise4.entity.EvenNumber;
+import Exercises.arrayList.exercise4.entity.EvenNumber;
 
 import java.util.Scanner;
 

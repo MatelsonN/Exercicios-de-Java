@@ -1,4 +1,4 @@
-package arrayListExercises.exercise4.entity;
+package Exercises.arrayList.exercise4.entity;
 
 public class EvenNumber {
 
