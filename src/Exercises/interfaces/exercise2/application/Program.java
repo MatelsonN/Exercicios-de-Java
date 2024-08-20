@@ -5,7 +5,6 @@ import Exercises.interfaces.exercise2.entities.Installment;
 import Exercises.interfaces.exercise2.service.ContractService;
 import Exercises.interfaces.exercise2.service.PaypalService;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;

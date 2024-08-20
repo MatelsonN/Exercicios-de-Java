@@ -2,7 +2,7 @@ package Exercises.compositionEnumeration.exercise1.utility;
 
 import Exercises.compositionEnumeration.exercise1.entity.Contracts;
 import Exercises.compositionEnumeration.exercise1.entity.Department;
-import Exercises.compositionEnumeration.exercise1.entity.Enum.Position;
+import Exercises.compositionEnumeration.exercise1.entity.enums.Position;
 import Exercises.compositionEnumeration.exercise1.entity.Worker;
 
 import java.text.ParseException;

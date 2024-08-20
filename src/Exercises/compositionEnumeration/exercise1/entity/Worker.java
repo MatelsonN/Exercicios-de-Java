@@ -1,6 +1,6 @@
 package Exercises.compositionEnumeration.exercise1.entity;
 
-import Exercises.compositionEnumeration.exercise1.entity.Enum.Position;
+import Exercises.compositionEnumeration.exercise1.entity.enums.Position;
 
 import java.util.ArrayList;
 import java.util.Calendar;
